@@ -1,0 +1,25 @@
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  height: 58px;
+  border-radius: 6px;
+}
+
+.counter__btn {
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  width: 58px;
+  height: 58px;
+  color: var(--color-grey);
+  cursor: pointer;
+  background: transparent;
+}
+
+.counter__value {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: var(--color-black);
+}

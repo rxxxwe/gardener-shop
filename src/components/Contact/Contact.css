@@ -1,0 +1,18 @@
+.contact {
+  padding-bottom: 80px;
+}
+
+.contact__block {
+  margin-bottom: 32px;
+}
+
+.contact__block-top {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.contact__map-frame {
+  border: none;
+  border-radius: 12px;
+}

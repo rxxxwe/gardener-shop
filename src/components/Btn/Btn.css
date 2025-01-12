@@ -1,0 +1,17 @@
+.btn {
+  border-radius: 6px;
+  width: 218px;
+  height: 58px;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: var(--color-white);
+  background: var(--color-green);
+  cursor: pointer;
+  transition: opacity 0.2s ease-in;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}

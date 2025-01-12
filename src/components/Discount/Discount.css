@@ -1,0 +1,130 @@
+.discount {
+  padding: 0 0 80px 0;
+}
+
+.discount__block {
+  width: 100%;
+  height: 486px;
+  padding: 32px 32px 0 32px;
+  border-radius: 12px;
+  background-color: var(--color-green);
+}
+
+.discount__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 110%;
+  text-align: center;
+  color: var(--color-white);
+  margin-bottom: 24px;
+}
+
+.discount__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+
+.discount__left-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.discount__right-inner {
+  padding-top: 32px;
+}
+
+.discount__form-block {
+  margin-bottom: 32px;
+}
+
+.discount__form-input {
+  display: block;
+  padding: 16px 32px;
+  width: 470px;
+  margin-bottom: 16px;
+  background: transparent;
+  border: 1px solid var(--color-white);
+  border-radius: 6px;
+  outline: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: var(--color-white);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.discount__form-input.error {
+  border: 1px solid red;
+}
+
+.discount__form-input::placeholder {
+  color: var(--color-white);
+}
+
+.discount__form-input:focus {
+  border-color: #00ff73;
+}
+
+.discount__btn {
+  border-radius: 6px;
+  padding: 16px 32px;
+  width: 100%;
+  background: var(--color-white);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: var(--black);
+}
+
+.discount-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.discount-modal.open {
+  opacity: 1;
+}
+
+.discount-modal__content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-green);
+  border-radius: 12px;
+  padding: 32px;
+  width: 548px;
+  height: 236px;
+  text-align: center;
+}
+
+.discount-modal__text {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110%;
+  color: var(--color-white);
+}
+
+.discount-modal__close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  cursor: pointer;
+  font-size: 24px;
+}

@@ -1,0 +1,23 @@
+.cart-clear__block {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.cart-clear__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: var(--color-black);
+}
+
+.cart-clear__link {
+  width: 313px;
+}
+
+.cart-clear__btn {
+  border-radius: 6px;
+  padding: 16px 56px;
+  width: 313px;
+  height: 58px;
+}

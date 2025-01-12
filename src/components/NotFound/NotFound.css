@@ -1,0 +1,41 @@
+.not-found {
+  padding: 80px 0;
+}
+
+.not-found__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.not-found__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 110%;
+  text-align: center;
+  color: var(--color-black);
+  margin-bottom: 16px;
+}
+
+.not-found__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: var(--color-grey);
+  margin-bottom: 32px;
+}
+
+.not-found__link {
+  display: flex;
+  justify-content: center;
+}
+
+.not-found__btn {
+  border-radius: 6px;
+  padding: 16px 56px;
+  width: 209px;
+  height: 58px;
+  background: var(--color-green);
+}

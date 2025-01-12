@@ -1,0 +1,9 @@
+.sale {
+  padding: 0 0 80px;
+}
+
+.sale__card-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
